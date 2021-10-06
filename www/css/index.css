@@ -1,0 +1,15 @@
+html {
+	font-family: Arial;
+	background-color:gray;
+}
+ul {
+	font-style: italic;
+}
+
+h1 {
+	color: gold;
+}
+h6 {
+	color: purple;
+	font-size: 15px;
+}
