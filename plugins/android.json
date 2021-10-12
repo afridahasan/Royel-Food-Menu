@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.et570.qccfoodmenu"
+    },
+    "cordova-plugin-browsersync": {
+      "PACKAGE_NAME": "io.et570.qccfoodmenu"
     }
   },
   "dependent_plugins": {}

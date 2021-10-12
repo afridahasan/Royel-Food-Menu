@@ -7,20 +7,40 @@
   <body>
       <div class="Container">
         <div class="Nav">
+          <div id="MenuButton" onclick= "myclick()">
+            <span ></span>
+            <span></span>
+            <span ></span>
+
+          </div>
           <ul id="Nav-links">
-            <li> Pizza </li>
-            <li> Chinese </li>
-            <li> Sushi </li>
-            <li> Bangladeshi </li>
-            <li> Indian </li>
-            <li> Maxican </li>
-            <li> Korean </li>
-            <li> Italian </li>
-            <li> Fast food </li>
+            <li > Home </li>
+            <li> About </li>
+            <li> Support </li>
+            <li> Sign IN </li>
+
+          </ul>
+
+        </div>
+        <div id="dropdown">
+          <ul id="drop-links">
+            <li id= "Sign-In">Sign In</li>
+            <li> Create A Account </li>
+            <li> Support </li>
+            <li> Sign IN </li>
 
           </ul>
         </div>
-
+          <script>
+          function myclick(){
+            var dropdown = document.getElementById("dropdown")
+            if(dropdown.classList.contains("away")){
+              dropdown.classList.remove("away")
+            }else{
+              dropdown.classList.add("away")
+            }
+          }
+          </script>
       </div>
   </body>
 </html>
